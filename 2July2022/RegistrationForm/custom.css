@@ -1,0 +1,55 @@
+body{
+  
+    background-color:hwb(204 7% 73% / 0.723);  
+   
+  
+  
+  background-size: contain;
+  border: 2px solid rgb(247, 245, 245);
+}
+h1{
+    color:rgb(28, 33, 33);
+    border:dotted;
+    text-shadow:2px 2px;
+    background-color: rgb(240, 67, 14);
+    animation-name: h1;
+    animation-duration: 10s;
+    animation-name:head;
+    animation-delay:2s;
+    animation-iteration-count: 4;
+    
+  
+
+    font-style:italic;
+    
+    color: black;
+}
+.account{ 
+    margin-left: 400px;
+    border:solid;
+    border-color: rgb(180, 171, 160);
+    background-color: rgb(10, 71, 92);
+    cursor: pointer;
+
+}
+@keyframes head{
+     from{ backgrount-color : rgba(18, 55, 82, 0.002); background-color: paleturquoise;}
+      
+      to{background-color:rgba(106, 106, 61, 0.644);}
+}
+.button{
+background-color: #276a81;
+bottom: unset;
+border: 10%;
+border-top-color: rgb(199, 182, 215);
+color: rgb(248, 249, 252);
+text-align: center;
+
+display: inline-block;
+font-size: 16px;
+margin: 10px 500px;
+
+
+cursor: pointer;
+}
+
